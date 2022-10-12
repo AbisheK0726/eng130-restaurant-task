@@ -13,7 +13,7 @@ for key, value in menu.items():
 #ask user up to 3 orders
 order = {}
 
-def yourOrder():
+def yourOrder(): #function to print the order
     print("=====================================")
     print("Your order is: ")
     for key, value in order.items():
